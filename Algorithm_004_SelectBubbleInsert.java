@@ -5,9 +5,9 @@ public class Algorithm_004_SelectBubbleInsert {
     public static void main(String[] args) {
         int[] arr = {5, 2, 4, 3, 1};
         System.out.println(Arrays.toString(arr));
-        //selectionSort(arr);
+        selectionSort(arr);
 //        bubbleSort(arr);
-        insertSort(arr);
+        //insertSort(arr);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -30,8 +30,9 @@ public class Algorithm_004_SelectBubbleInsert {
                 if (arr[j] < arr[minIndex]) {
                     minIndex = j;
                 }
-                swap(arr, i, minIndex);
             }
+            swap(arr, i, minIndex);
+
         }
     }
      // 冒泡排序
