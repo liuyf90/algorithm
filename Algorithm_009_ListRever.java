@@ -1,7 +1,7 @@
 public class Algorithm_009_ListRever{
 
-
-
+    // 给定单链表的头节点 head ，请反转链表，并返回反转后的链表的头节点。
+    // 反转单链表 https://leetcode.cn/problems/UHnkqh/
     public static void main(String[] args) {
         
     }
@@ -12,7 +12,7 @@ public class Algorithm_009_ListRever{
         ListNode next;
         ListNode(int x) { val = x; }
     }
-// 反转单链表 https://leetcode.cn/problems/UHnkqh/
+
     class Solution {
         public ListNode reverseList(ListNode head) {
             ListNode pre=null;
