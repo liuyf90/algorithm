@@ -24,7 +24,6 @@ public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
     ListNode cur1= head.next;
     ListNode cur2= head==l1? l2: l1;
     // pre=head,用于记录当前链表的前一个节点，以便下一步将cur1或cur2的节点连接到pre后面
-    //pre 与 head 是一个内存地址，pre==head。
     ListNode pre=head;
     while(cur1!=null && cur2!=null){
         if(cur1.val<=cur2.val){
