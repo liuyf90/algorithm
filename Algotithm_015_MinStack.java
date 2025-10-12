@@ -9,9 +9,10 @@ public class Algotithm_015_MinStack {
     public static class MinStack {
         Stack<Integer> stack;
         Stack<Integer> min;
+     
         public MinStack() {
-            stack=new Stack();
-            min=new Stack();
+            stack=new Stack<Integer>();
+            min=new Stack<Integer>();
         
         }
         
