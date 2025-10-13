@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Algotithm_015_MinStack {
+public class Algorithm_015_MinStack {
 //    https://leetcode.cn/problems/min-stack/description/
     public static void main(String[] args) {
 

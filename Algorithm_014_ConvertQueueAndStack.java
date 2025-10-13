@@ -1,7 +1,7 @@
 import java.util.Stack;
 import java.util.LinkedList;
 import java.util.Queue;
-public class Algotithm_014_ConvertQueueAndStack {
+public class Algorithm_014_ConvertQueueAndStack {
 
     public static void main(String[] args) {
 

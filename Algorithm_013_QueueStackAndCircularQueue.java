@@ -2,7 +2,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Stack;
 
-public class Algotithm_013_QueueStackAndCircularQueue  {
+public class Algorithm_013_QueueStackAndCircularQueue  {
 
 	// 直接用java内部的实现
 	// 其实内部就是双向链表，常数操作慢

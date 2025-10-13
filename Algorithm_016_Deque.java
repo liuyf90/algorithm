@@ -1,7 +1,7 @@
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class Algotithm_016_Deque {
+public class Algorithm_016_Deque {
     public static void main(String[] args) {
     }
 
